@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("/docs/media/Earth.jpg");
+  background-image: url("../media/Earth.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
