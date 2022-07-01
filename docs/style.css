@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,800&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(media/wall.jpg);
+  background-image: url(/docs/media/wall.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -250,16 +250,6 @@ h5 {
   cursor: pointer;
 }
 
-@media screen and (max-width: 750px) {
-  .box {
-    display: inline-block;
-    justify-content: stretch;
-    align-items: center;
-    min-height: 400px;
-  }
-
-  /* contact-me  */
-}
 .contact-me {
   width: 100%;
   height: 190px;
@@ -353,4 +343,13 @@ footer p:nth-child(2) {
   color: #0081f9;
   bottom: 35px;
   font-size: 14px;
+}
+
+@media screen and (max-width: 750px) {
+  .box {
+    display: inline-block;
+    justify-content: stretch;
+    align-items: center;
+    min-height: 400px;
+  }
 }
